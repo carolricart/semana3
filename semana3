@@ -1,0 +1,14 @@
+package aula3;
+
+public class Bike {
+    public static void main(String[] args) {
+        Bike bike = new Bike();
+
+        bike.marca = "Caloi";
+        bike.qtdMarchas = 3;
+        bike.cor = "Rosa/Azul";
+
+        bike.andar();
+        bike.frear();
+    }
+}
